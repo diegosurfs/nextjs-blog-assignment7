@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 // Imports the functions that find post IDs and read individual Markdown posts.
-import { getAllPostIds, getPostData } from "../../lib/posts";
+import { getAllPostIds, getPostData } from "../../lib/posts-json";
 
 // Imports the CSS module used to style the post page.
 import styles from "../../styles/Home.module.css";

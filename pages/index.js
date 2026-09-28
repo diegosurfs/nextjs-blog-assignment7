@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 // Imports the function that reads all Markdown post information.
-import { getSortedPostsData } from "../lib/posts";
+import { getSortedPostsData } from "../lib/posts-json";
 
 // Imports the CSS module used to style the homepage.
 import styles from "../styles/Home.module.css";

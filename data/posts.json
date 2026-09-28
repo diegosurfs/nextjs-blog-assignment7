@@ -1,0 +1,26 @@
+[
+  {
+    "id": "networking-basics",
+    "title": "Networking Basics",
+    "date": "2026-09-20",
+    "contentHtml": "<p>Computer networking allows devices to communicate and share information. A network can connect computers, phones, servers, and other devices using wired or wireless connections.</p><p>Some important networking devices include routers and switches. Switches connect devices within a local network, while routers connect different networks and help direct traffic between them. Learning these basics is an important first step toward understanding how networks work.</p>",
+    "author": "Diego",
+    "category": "Technology"
+  },
+  {
+    "id": "toyota-mr2",
+    "title": "The Toyota MR2",
+    "date": "2026-09-21",
+    "contentHtml": "<p>The Toyota MR2 is a sports car known for its mid-engine layout and exciting driving experience. The second-generation MR2, also known as the SW20, is especially interesting because of its styling and turbocharged engine option.</p><p>One of the things that makes the SW20 special is its balance and handling. It is a car that many enthusiasts enjoy modifying and maintaining. Owning a manual turbo MR2 would be an exciting project for someone who enjoys cars.</p>",
+    "author": "Diego",
+    "category": "Cars"
+  },
+  {
+    "id": "criminal-minds",
+    "title": "Criminal Minds",
+    "date": "2026-09-22",
+    "contentHtml": "<p>Criminal Minds is a crime drama television series that follows a team of FBI profilers in the Behavioral Analysis Unit. The team investigates difficult cases by studying evidence and analyzing the behavior of suspects.</p><p>The show combines crime investigations, teamwork, and character development. Each episode often focuses on a different case while also showing the relationships and challenges faced by the team.</p>",
+    "author": "Diego",
+    "category": "Television"
+  }
+]
