@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 // Imports the functions that find post IDs and read individual Markdown posts.
-import { getAllPostIds, getPostData } from "../../lib/posts-json";
+import { getAllPostIds, getPostData } from "../../lib/posts-firebase";
 
 // Imports the CSS module used to style the post page.
 import styles from "../../styles/Home.module.css";
@@ -58,7 +58,7 @@ export default function Post({ postData }) {
 // Creates the list of possible post URLs when the site is built.
 export async function getStaticPaths() {
   // Gets the IDs of all Markdown posts.
-  const paths = getAllPostIds();
+ const paths = await getAllPostIds();
 
   // Tells Next.js to generate a page for every Markdown post.
   return {

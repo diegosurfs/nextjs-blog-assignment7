@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 // Imports the function that reads all Markdown post information.
-import { getSortedPostsData } from "../lib/posts-json";
+import { getSortedPostsData } from "../lib/posts-firebase";
 
 // Imports the CSS module used to style the homepage.
 import styles from "../styles/Home.module.css";
@@ -54,7 +54,7 @@ export default function Home({ allPostsData }) {
 // Gets the Markdown post information at build time.
 export async function getStaticProps() {
   // Reads and sorts all Markdown posts from the posts directory.
-  const allPostsData = getSortedPostsData();
+  const allPostsData = await getSortedPostsData();
 
   // Sends the post information to the homepage component as props.
   return {
